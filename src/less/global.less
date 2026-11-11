@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: @fuente-principal;
+    background-color: @color-fondo;
+    color: @color-texto;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: @ancho-contenedor;
+    margin: 0 auto;
+}
+
+section {
+    padding: 70px 0;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 45px 0;
+    }
+
+    .container {
+        width: 92%;
+    }
+}
