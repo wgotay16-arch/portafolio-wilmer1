@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && purgecss --css \"dist/assets/*.css\" --content \"dist/**/*.html\" \"dist/**/*.js\" --output \"dist/assets\"",
     "preview": "vite preview"
-  },
+},
   "devDependencies": {
     "less": "^4.9.1",
     "purgecss": "^9.1.0",

@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: './',
+    base: '/portafolio-wilmer1/',
     server: {
         open: true
     },
